@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Route::redirect('/', '/register');
 
 require __DIR__.'/auth.php';
 
