@@ -14,26 +14,30 @@
 <body class="">
 
 <div class="grid grid-flow-col">
-    <div class="px-36 py-20">
-        <div class="">
-            <img src="{{ asset('images/ithelper.png') }}" alt="trackpro" width="4%" height="4%">
+    <div class="py-20 px-36">
+        <div class="flex space-x-3">
+            <img src="{{ asset('images/ithelper.jpg') }}" alt="trackpro" width="13%" height="4%">
+            <h2 class="mt-6 text-lg sm:text-xl">
+                IDCZ IT ticket support system</h2>
+            <h2 class="text-lg sm:text-xl">
+            
         </div>
         <div class="mt-16 space-y-3">
-          <h1 class="font-medium text-7xl w-7/12 text-teal-800">
+          <h1 class="w-7/12 font-medium text-teal-800 text-7xl">
               Solve All your IT problems without leaving the comfort of your Office
           </h1>
         </div>
-        <div class="mt-5  text-gray-500">
+        <div class="mt-5 text-gray-500">
             <h2 class="mt-6 text-lg sm:text-xl">
                 Simplify your work and boost team efficiency with our it helpdesk system</h2>
             <h2 class="text-lg sm:text-xl">
                 management tool.</h2>
         </div>
 
-        <div class="flex space-x-7 mt-8">
+        <div class="flex mt-8 space-x-7">
             <a href="{{ route('register') }}">
                 <button
-                        class="bg-teal-800 text-white text-xl rounded-sm w-40 h-12 hover:bg-gray-400 hover:text-white peer-aria-checked: py-1">
+                        class="w-40 h-12 py-1 text-xl text-white bg-teal-800 rounded-sm hover:bg-gray-400 hover:text-white peer-aria-checked:">
                     Get Started
                 </button>
             </a>
